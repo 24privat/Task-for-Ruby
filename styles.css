@@ -1,0 +1,130 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    background-image: url('../images/background.png');
+    background-size: cover;
+}
+
+
+.main {
+    position: relative;
+    min-height: 100%;
+    clear: both;
+}
+.main .h-footer {
+    height: 50px;
+    clear: both;
+}
+
+
+header {
+    margin-top: 50px;
+}
+header h1 {
+    margin: 0;
+    font-weight: bold;
+}
+header h4 {
+    margin: 0;
+    font-weight: 600;
+}
+
+
+/* Таблица */
+.main-table {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #999;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+
+.main-table .header {
+    padding: 15px;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    background: #4a5f92;
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+.main-table .header i {
+    margin-right: 5px;
+    color: #bbb;
+}
+.main-table .header button {
+    background: transparent;
+    border: none;
+}
+.main-table .header button i {
+    margin: 0;
+    color: rgba(255,255,255,0.2);
+}
+.main-table .header button:hover i {
+    color: rgba(255,255,255,0.5);
+}
+
+.main-table .add {
+    padding: 8px 15px;
+    height: 50px;
+    background: #d7d7d7;
+    border-bottom: 1px solid #aaaaaa;
+    overflow: hidden;
+}
+.main-table .add .form-control {
+    width: 433px;
+}
+.main-table .add button {
+    color: #fff;
+    background: #6ca384;
+}
+
+.main-table .table {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.main-table .table td {
+    padding: 8px 15px;
+}
+.main-table .table td:first-child {
+    width: 20px;
+}
+.main-table .table td:last-child {
+    width: 70px;
+}
+
+.main-table .table td .button {
+    display: none;
+}
+.main-table .table td .button a {
+    padding-right: 5px;
+    color: #aaa;
+    text-decoration: none;
+}
+.main-table .table td .button a:hover {
+    color: #777;
+}
+.main-table .table td .button i {
+    margin-top: 3px;
+}
+.main-table .table tr:hover .button {
+    display: block;
+}
+
+
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 50px;
+    clear: both;
+    overflow: hidden;
+}
+footer .copyright {
+    margin: 15px 0;
+}
